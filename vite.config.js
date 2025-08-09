@@ -4,5 +4,5 @@ import react from '@vitejs/plugin-react'
 
 export default defineConfig({
   plugins: [react()],
-  base: './'   // ★ フルURLではなく先頭/末尾スラッシュ付きのパス
+  base: '/triangle-area-react/'   // GitPages用：リポジトリ名をパスに含める
 })
